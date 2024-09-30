@@ -1,0 +1,42 @@
+# virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+
+# jupyter notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# python
+__pycache__/
+*.py[cod]
+
+
+*.cache
+.pytest_cache/
+.mypy_cache/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
